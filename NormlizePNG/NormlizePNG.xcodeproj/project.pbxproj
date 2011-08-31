@@ -187,7 +187,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NormlizePNG_Prefix.pch;
 				INFOPLIST_FILE = "NormlizePNG-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = NormlizePNG;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -199,7 +201,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = NormlizePNG_Prefix.pch;
 				INFOPLIST_FILE = "NormlizePNG-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = NormlizePNG;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

@@ -11,6 +11,6 @@
 @interface NormlizePNGViewController : UIViewController {
 
 }
-
+- (void)loadAllBundleImage;
 @end
 

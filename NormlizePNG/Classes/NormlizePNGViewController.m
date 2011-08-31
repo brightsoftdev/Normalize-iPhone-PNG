@@ -9,7 +9,13 @@
 #import "NormlizePNGViewController.h"
 
 @implementation NormlizePNGViewController
-
+- (void)loadAllBundleImage{
+    NSArray * imagesPath = [NSBundle pathsForResourcesOfType:@"png" inDirectory:[[NSBundle mainBundle]bundlePath]];
+	for (NSString * a in imagesPath) {
+		NSData * idata = UIImagePNGRepresentation([UIImage imageWithContentsOfFile:a]);
+		[idata writeToFile:[NSString stringWithFormat:@"%@%@",kSAVEPATH,[a lastPathComponent]] atomically:YES];
+	}
+}
 
 
 /*
@@ -29,12 +35,20 @@
 */
 
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self loadAllBundleImage];
+    UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Convert Done!" 
+                               message:[NSString stringWithFormat:@"Check your image in %@",kSAVEPATH]
+                              delegate:nil 
+                     cancelButtonTitle:@"Okay" 
+                     otherButtonTitles: nil];
+    [alert show];
+    [alert release];
 }
-*/
+
 
 
 /*
