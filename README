@@ -10,10 +10,10 @@ Manual:
 
 4.Change Marco define kSAVEPATH(it's your save path) in the "NormlizePNG_Prefix.pch" file
 
-4.And Run this Project
+5.And Run this Project
 
-5.When the alert View show, you can check the normalized png images in your path.
+6.When the alert View show, you can check the normalized png images in your path.
 
-6.Delete this App from iOS simulator immediately.
+7.Delete this App from iOS simulator immediately.
 
 PLEASE USE IT IN RIGHT WAY. THANK YOU.
