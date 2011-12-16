@@ -7,4 +7,4 @@
     #import <UIKit/UIKit.h>
 #endif
 
-#define kSAVEPATH @"/Users/YourName/Desktop/PNGs/"
+#define kSAVEPATH @"/Users/Aladdin/Desktop/PNGs/"

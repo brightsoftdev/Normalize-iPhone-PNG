@@ -36,8 +36,30 @@
 			83130D40125DB32A00A275AE /* NormlizePNG */,
 		);
 		perUserDictionary = {
-			PBXPerProjectTemplateStateSaveDate = 308130602;
-			PBXWorkspaceStateSaveDate = 308130602;
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					356,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 337011712;
+			PBXWorkspaceStateSaveDate = 337011712;
 		};
 		sourceControlManager = 83130D50125DB34800A275AE /* Source Control */;
 		userBuildSettings = {
